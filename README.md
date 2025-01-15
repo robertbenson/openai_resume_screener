@@ -122,11 +122,13 @@ John Smith is a strong candidate for the role based on his extensive Java experi
 ## Prerequisites
 
 Python 3.x installed.
+
 An OpenAI API key (stored securely in a .env file).
 
-## Clone the repo
+clone
 
-git clone https://github.com/your-username/OpenAI_Resume_Screener.git
 pip install -r requirements.txt
+
 Add your OpenAI API key to a .env file
+
 python main.py
