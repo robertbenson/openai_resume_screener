@@ -31,14 +31,14 @@ The prompt used is designed to evaluate the content and structure of a CV and re
 It assesses whether the CV aligns with the job description.
 
 
-|               | Comment                                                            |
-|---------------|--------------------------------------------------------------------|
-| Role/ persona | You are a recruitment expert                                       |
-| Response      | concise and clear                                                  |
-| Task          | analyse and report                                                 |
-| Output        | how the output is to be presented                                  |
-| Consideration | CTA for UK and Ireland candidates<br/>make Yes or No for interview |
-| Choice        | Present the OpenAI choice                                          |
+|               | Comment                                                                                |
+|---------------|----------------------------------------------------------------------------------------|
+| Role/ persona | You are a recruitment expert                                                           |
+| Response      | concise and clear                                                                      |
+| Task          | analyse and report                                                                     |
+| Output        | how the output is to be presented                                                      |
+| Consideration | Common Travel Area (CTA) for UK and Ireland candidates<br/>make Yes or No for interview |
+| Choice        | Present the OpenAI choice yes or no                                                    |
 
 
 
@@ -125,9 +125,12 @@ Python 3.x installed.
 
 An OpenAI API key (stored securely in a .env file).
 
-clone
+clone source from Github
 
-pip install -r requirements.txt
+
+```cmd 
+pip install pypdf2 openai
+```
 
 Add your OpenAI API key to a .env file
 
