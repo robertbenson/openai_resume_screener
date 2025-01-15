@@ -1,4 +1,4 @@
-# Resume Analyser using OpenAI - Prescreen
+# Resume Pre-screener using OpenAI
 
 A fun python script that takes in a persons details, made up, and decides whether to call this person forward for interview. 
 The candidate is fictitious.
