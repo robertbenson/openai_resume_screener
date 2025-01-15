@@ -1,0 +1,15 @@
+1) Skill gap identification: Compare the skills listed in the resume with those required in the job posting, highlighting areas where the resume may be lacking or overemphasized.
+2) Keyword matching between a CV and a job description: match keywords from the job description with the resume, determining how well they align. Provide specific suggestions for missing keywords to add to the CV.
+3) Recommendations for CV improvement: Provide actionable suggestions on how to enhance the resume, such as adding missing skills or rephrasing experience to match job requirements.
+4) Alignment score: Display a score that represents the degree of alignment between the resume and the job posting.
+5) Personalized feedback: Offer tailored advice based on the job posting, guiding the user on how to optimize their CV for the best chances of success.
+6) Job market trend insights, provide broader market trends and insights, such as in-demand skills and salary ranges.
+7) Would you call this candidate forward for interview based on this CV?
+8) Calculate how many years this candidate has in leadership.
+9) Does the education level match the requirement ?
+10) give advice on what updates should be made to the cv
+11) any github repos ?
+12) what certificates does the candidate have ?
+13) if driving is required, does this candidate meet the requirements ie have a driving licence and number of penalty points ?
+14) is the candidate eligible to work in Ireland ?
+15) does the candidate pass a police background check ?
