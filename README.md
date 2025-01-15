@@ -1,4 +1,4 @@
-# Resume Pre-screener using OpenAI
+# Resume Pre-Screener using OpenAI
 
 A fun python script that takes in a persons details, made up, and decides whether to call this person forward for interview. 
 The candidate is fictitious.
@@ -7,9 +7,11 @@ A Python script uses PyPDF2 to process pdfs, extract text, to build a profile fo
 
 Using the inputs provided (PDFs) , OpenAI will make a determination,using prompt information, whether to call eligible candidates forward for interview.
 
+## Features
+
 - Extracts text from PDF documents: cv, police clearances, and driving declarations.
 - Compares candidate details against a job description and analysis criteria.
-- Uses OpenAI api to get a recommendation.
+- Uses OpenAI api to get detailed feedback.
 
 ### Response
 
@@ -116,8 +118,15 @@ John Smith is a strong candidate for the role based on his extensive Java experi
 
 ```
 
-## OpenAI key
 
-An OpenAI api key is required to run this, but is hidden in the .env file for security
+## Prerequisites
 
-This code may be copied and run with your own api key.
+Python 3.x installed.
+An OpenAI API key (stored securely in a .env file).
+
+## Clone the repo
+
+git clone https://github.com/your-username/OpenAI_Resume_Screener.git
+pip install -r requirements.txt
+Add your OpenAI API key to a .env file
+python main.py
